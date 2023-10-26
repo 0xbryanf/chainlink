@@ -1,0 +1,23 @@
+{
+  "name": "dev3-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "build": "rimraf && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dev3-sdk": "^0.0.28"
+  },
+  "devDependencies": {
+    "ethers": "^5.7.2",
+    "rimraf": "^5.0.5",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  }
+}
