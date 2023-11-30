@@ -1,1 +1,20 @@
-{"@context":[{"@protected":true,"@version":1.1,"id":"@id","type":"@type","agecredential":{"@context":{"@propagate":true,"@protected":true,"polygon-vocab":"urn:uuid:ac6a98ae-b3a1-46b1-ae2c-4406ffdc6fb0#","xsd":"http://www.w3.org/2001/XMLSchema#","birthday":{"@id":"polygon-vocab:birthday","@type":"xsd:double"}},"@id":"urn:uuid:5f77d8a0-0516-4734-b536-df4140791336"}}]}
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "agecredential": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "polygon-vocab": "urn:uuid:ac6a98ae-b3a1-46b1-ae2c-4406ffdc6fb0#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "birthday": { "@id": "polygon-vocab:birthday", "@type": "xsd:double" }
+        },
+        "@id": "urn:uuid:5f77d8a0-0516-4734-b536-df4140791336"
+      }
+    }
+  ]
+}
